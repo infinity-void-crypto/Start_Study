@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: study-level
-    runtime: docker
-    plan: free
-    healthCheckPath: /
-    envVars:
-      - key: PORT
-        value: 8501
